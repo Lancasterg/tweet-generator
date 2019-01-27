@@ -1,3 +1,4 @@
 *.hdf5
 keys
 venv/
+training_checkpoints/
