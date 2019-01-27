@@ -1,7 +1,7 @@
 import os
 
 path_to_file = 'story.txt'
-EPOCHS = 30
+EPOCHS = 3
 # Directory where the checkpoints will be saved
 checkpoint_dir = './training_checkpoints'
 # Name of the checkpoint files

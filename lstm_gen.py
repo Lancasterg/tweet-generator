@@ -16,13 +16,13 @@ else:
         tf.keras.layers.GRU, recurrent_activation='sigmoid')
 
 
-def train_model():
+def train_model(text):
     """
     Create, train and save the neural network model
     :return: None
     """
     # Read, then decode for py2 compat.
-    text = open(path_to_file, 'rb').read().decode(encoding='utf-8')
+    # text = open(path_to_file, 'rb').read().decode(encoding='utf-8')
     # length of text is the number of characters in it
     print('Length of text: {} characters'.format(len(text)))
     # The unique characters in the file
