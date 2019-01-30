@@ -9,9 +9,7 @@ def main():
     parser.add_argument('-u', type=str, help='Twitter username')
     args = parser.parse_args()
     username = args.u
-
     api = get_api()
-
     corpus = build_corpus(username, api)
     train_model(corpus)
 
