@@ -3,3 +3,5 @@ keys
 venv/
 training_checkpoints/
 training_checkpoints_story/
+__pycache__
+.idea
